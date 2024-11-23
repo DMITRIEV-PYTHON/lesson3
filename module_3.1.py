@@ -27,7 +27,7 @@ def is_contains(string, list_compare):  # функция строка+списо
         else:
             compare = False
         continue
-    return compare
+    return compare #
 
 
 print(string_info("UNIVERSITY"))
