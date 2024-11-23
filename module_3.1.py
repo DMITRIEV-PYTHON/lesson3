@@ -10,7 +10,7 @@ def count_calls():  # функция подсчета вызовов
 
 def string_info(string):  # функция строка-->кортеж (длина,верхний регистр,нижний регистр)
     str_info = str(string)
-    info = (len(str_info), str_info.upper(), str_info.lower()) # кортеж
+    info = (len(str_info), str_info.upper(), str_info.lower())  # кортеж
     count_calls()  # вызываем функцию счетчика
     return info  # выводим результат работы функции строка-->кортеж
 
@@ -27,7 +27,7 @@ def is_contains(string, list_compare):  # функция строка+списо
         else:
             compare = False
         continue
-    return compare #
+    return compare  #
 
 
 print(string_info("UNIVERSITY"))
